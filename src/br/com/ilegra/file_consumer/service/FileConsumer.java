@@ -52,7 +52,7 @@ public class FileConsumer extends Thread implements IFileConsumer{
   @Override
 	public void run() {
     try {
-      System.out.println("Processando o arquivo " + fileIn + "...");
+      System.out.print("Processando o arquivo " + fileIn + "...");
       consumeFile(fileIn);
     }
     catch (FileNotFoundException ex) {
@@ -80,6 +80,9 @@ public class FileConsumer extends Thread implements IFileConsumer{
 
     try {
       generateOutputFile(fileOut, linhas);
+      
+      System.out.println(" Ok.");
+      System.out.println("Arquivo de saída " + fileOut + " criado com sucesso.");
     }
     catch (IOException ex) {
       System.out.println("Problemas na geração do arquivo " + fileOut + "!");

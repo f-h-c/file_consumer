@@ -6,7 +6,7 @@ public class Main {
 
   public static void main(String[] args)
   {
-  	DirectoryObserver obs = new DirectoryObserver("dados/in/", "dados/out/", "ç", ",", "-", "done", 10000);
+  	DirectoryObserver obs = new DirectoryObserver("data/in/", "data/out/", "ç", ",", "-", "done", 10000);
 
     System.out.println("\n Iniciando a busca de arquivos .dat no diretório padrão...\n");
 
