@@ -33,7 +33,7 @@ public class FileConsumerTest {
 		fileRecorder.print("002ç2345675434544345çJose da SilvaçRural\n");
 		fileRecorder.print("002ç2345676533444345çEduardo PereiraçRural\n");
 		fileRecorder.print("003ç10ç[1-10-100,2-30-2.50,3-40-3.10]çDiego\n");
-		fileRecorder.print("003ç08ç[1-34-10,2-33-1.50,3-40-0.10]çrenato\n");
+		fileRecorder.print("003ç08ç[1-34-10,2-33-1.50,3-40-0.10]çRenato\n");
 
 		fileRecorder.close();
 
